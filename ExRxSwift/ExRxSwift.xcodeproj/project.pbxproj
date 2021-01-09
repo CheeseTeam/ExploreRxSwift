@@ -12,6 +12,7 @@
 		C832F45320EA2B3F003229D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C832F45120EA2B3F003229D4 /* Main.storyboard */; };
 		C832F45520EA2B3F003229D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C832F45420EA2B3F003229D4 /* Assets.xcassets */; };
 		C832F45820EA2B3F003229D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C832F45620EA2B3F003229D4 /* LaunchScreen.storyboard */; };
+		C892B318214B8DCA001C0758 /* NormalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C892B317214B8DCA001C0758 /* NormalCell.swift */; };
 		EBED0AF4F067E31416E807FB /* Pods_ExRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE2C930D051520C0789C1F4 /* Pods_ExRxSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		C832F45420EA2B3F003229D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C832F45720EA2B3F003229D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C832F45920EA2B3F003229D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C892B317214B8DCA001C0758 /* NormalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			children = (
 				C832F44D20EA2B3F003229D4 /* AppDelegate.swift */,
 				C832F44F20EA2B3F003229D4 /* ViewController.swift */,
+				C892B317214B8DCA001C0758 /* NormalCell.swift */,
 				C832F45120EA2B3F003229D4 /* Main.storyboard */,
 				C832F45420EA2B3F003229D4 /* Assets.xcassets */,
 				C832F45620EA2B3F003229D4 /* LaunchScreen.storyboard */,
@@ -100,7 +103,6 @@
 				C832F44720EA2B3F003229D4 /* Frameworks */,
 				C832F44820EA2B3F003229D4 /* Resources */,
 				6BE0EFEE31214AA70BE4FEFA /* [CP] Embed Pods Frameworks */,
-				787072EE8C2D536724ADE05D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,21 +181,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExRxSwift/Pods-ExRxSwift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		787072EE8C2D536724ADE05D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExRxSwift/Pods-ExRxSwift-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		F89F3D056B024F6103DD38A2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -219,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C892B318214B8DCA001C0758 /* NormalCell.swift in Sources */,
 				C832F45020EA2B3F003229D4 /* ViewController.swift in Sources */,
 				C832F44E20EA2B3F003229D4 /* AppDelegate.swift in Sources */,
 			);
@@ -359,7 +347,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R2GT9E6353;
+				DEVELOPMENT_TEAM = L4FK2NAFJB;
 				INFOPLIST_FILE = ExRxSwift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -376,7 +364,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R2GT9E6353;
+				DEVELOPMENT_TEAM = L4FK2NAFJB;
 				INFOPLIST_FILE = ExRxSwift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

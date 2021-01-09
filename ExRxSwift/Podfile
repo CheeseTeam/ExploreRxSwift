@@ -6,6 +6,6 @@ target 'ExRxSwift' do
   use_frameworks!
 
   # Pods for ExRxSwift
-  pod 'RxSwift', '~> 4.1.2'
-  pod 'RxCocoa', '~> 4.1.2'
+  pod 'RxSwift', '~> 4.2.0'
+  pod 'RxCocoa', '~> 4.2.0'
 end
